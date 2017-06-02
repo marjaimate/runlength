@@ -27,7 +27,7 @@ Write the encoder that turns string into their run length encoded versions.
 
 Seems easy? How about doing the reverse, and decoding a run length string and expand it to its original format!
 
-## How do test my code?
+## How do I test my code?
 
 Load up the REPL with:
 
