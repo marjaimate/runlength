@@ -18,3 +18,11 @@ Given a string of uppercase characters in the range A-Z, replace runs of sequent
 For example, if would take the sequence JJJTTWPPMMMMYYYYYYYYYVVVVVV the output would look like:
 
 3J2T1W2P4M9Y6V
+
+# Part I
+
+Write the encoder that turns string into their run length encoded versions.
+
+# Part II
+
+Seems easy? How about doing the reverse, and decoding a run length string and expand it to its original format!
