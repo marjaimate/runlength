@@ -26,3 +26,33 @@ Write the encoder that turns string into their run length encoded versions.
 # Part II
 
 Seems easy? How about doing the reverse, and decoding a run length string and expand it to its original format!
+
+## How do test my code?
+
+Load up the REPL with:
+
+```bash
+$ mix && iex -S mix
+```
+
+Then you can test it with:
+
+```bash
+iex(1)> Runlength.encode "ASDF"
+"1A1S1D1F"
+```
+
+## How do I know I'm done?
+
+This repo has some tests, so you can easily run run them with
+
+```bash
+$ mix test
+```
+
+If you're only interested in the encoding tests, then do
+
+```bash
+$ mix test test/encode_test.ex
+
+```
