@@ -53,6 +53,6 @@ $ mix test
 If you're only interested in the encoding tests, then do
 
 ```bash
-$ mix test test/encode_test.ex
+$ mix test test/encode_test.exs
 
 ```
